@@ -16,7 +16,6 @@ finish-args:
   - --allow=per-app-dev-shm # Shared memory
   - --device=all
   - --talk-name=org.kde.StatusNotifierWatcher # Tray icon
-  - --talk-name=org.freedesktop.portal.Background # Required for bwrap to work
   - --system-talk-name=org.freedesktop.UDisks2 # Mounted Devices
   - --filesystem=home
   - --filesystem=/mnt
