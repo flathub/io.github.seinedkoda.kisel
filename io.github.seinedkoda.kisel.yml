@@ -21,7 +21,7 @@ finish-args:
   - --filesystem=/mnt
   - --filesystem=/media
   - --filesystem=/run/media
-  - --env=PATH=/app/bin:/usr/bin:/usr/lib/extensions/vulkan/MangoHud/bin:/usr/lib/extensions/vulkan/OBSVkCapture/bin
+  - --env=PATH=/app/bin:/usr/bin:/usr/lib/extensions/vulkan/MangoHud/bin:/usr/lib/extensions/vulkan/OBSVkCapture/bin:/usr/lib/extensions/vulkan/gamescope/bin
 
 modules:
   - name: icoutils
@@ -65,5 +65,5 @@ modules:
       - -DINSTALL_UMU=OFF
     sources:
       - type: archive
-        url: https://github.com/seinedkoda/kisel/archive/refs/tags/v1.4.1.tar.gz
-        sha256: 73a9970ace96de3901561c98d9e939f0b359e7f3cd1b1c792e11bf666eec6622
+        url: https://github.com/seinedkoda/kisel/archive/refs/tags/v1.5.0.tar.gz
+        sha256: 04b6b79d49be9598739c5a1d38d56fc9a20de48e941289077609faea1554a547
