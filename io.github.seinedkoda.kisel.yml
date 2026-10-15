@@ -65,5 +65,5 @@ modules:
       - -DINSTALL_UMU=OFF
     sources:
       - type: archive
-        url: https://github.com/seinedkoda/kisel/archive/refs/tags/v1.5.0.tar.gz
-        sha256: 04b6b79d49be9598739c5a1d38d56fc9a20de48e941289077609faea1554a547
+        url: https://github.com/seinedkoda/kisel/archive/refs/tags/v1.5.1.tar.gz
+        sha256: 8f69c1b40d89162961c798d5b11e65aa3a4c6a8317eb97a2a1a6c27ac7578946
